@@ -2,12 +2,10 @@ import Aluno from "./model/Aluno.js";
 import Professor from "./model/Professor.js";
 import Pessoa from "./model/Pessoa.js";
 
-const pessoa = new Pessoa("João", 25);
+const pessoa = new Pessoa("Pereira", 16);
+const aluno = new Aluno("Aprender a programar", "DS2", "Rocha", 16);
+const professor = new Professor("Programação BACK-END", "Felipe Dev", 32);
+
 console.log(pessoa);
-
-const aluno = new Aluno("Aprender a programar", "Turma A");
 console.log(aluno);
-
-const professor = new Professor("Programação");
 console.log(professor);
-
