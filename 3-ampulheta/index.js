@@ -1,5 +1,5 @@
-// imports
+import Ampulheta from "./model/Ampulheta.js";
 
-// instanciação de classe, criando objetos
+const bruxinhaMestre = new Ampulheta("Hermione Granger");
 
-// usando métodos da classe
+bruxinhaMestre.voltarNoTempo();

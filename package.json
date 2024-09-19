@@ -13,6 +13,6 @@
     "hera": "node 4-pessoa/index.js",
     "poli": "node 5-seres/index.js"
   },
-  "author": "Marcelo",
+  "author": "Pablo Delgado",
   "license": "MIT"
 }
