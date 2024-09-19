@@ -1,11 +1,13 @@
-// importar classes herdadas (caso tenham)
+import Pessoa from './Pessoa.js';
 
-// criação de classe
+class Aluno extends Pessoa {
+    objetivoAluno;
+    turmaAluno;
+    constructor (objetivoAluno, turmaAluno, nomePessoa, idadePessoa) {
+        super(nomePessoa, idadePessoa);
+        this.objetivoAluno = objetivoAluno;
+        this.turmaAluno = turmaAluno;
+    }
+}
 
-// definir os atributos da classe
-
-// criar o construtor da classe
-
-// criar os métodos da classe (se eles existirem)
-
-// exportar a classe para uso modular
+export default Aluno;
